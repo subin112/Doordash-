@@ -1,0 +1,750 @@
+/*
+          object-assign
+          (c) Sindre Sorhus
+          @license MIT
+          */
+
+/*
+object-assign
+(c) Sindre Sorhus
+@license MIT
+*/
+
+/*!
+  Copyright (c) 2015 Jed Watson.
+  Based on code that is Copyright 2013-2015, Facebook, Inc.
+  All rights reserved.
+*/
+
+/*!
+ * Determine if an object is a Buffer
+ *
+ * @author   Feross Aboukhadijeh <https://feross.org>
+ * @license  MIT
+ */
+
+/*!
+ * cookie
+ * Copyright(c) 2012-2014 Roman Shtylman
+ * Copyright(c) 2015 Douglas Christopher Wilson
+ * MIT Licensed
+ */
+
+/*!       export tsconfig [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*!       other exports [not provided] [no usage info] */
+
+/*!     export 0 [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*!     export 1 [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*!     export 2 [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*!     export 3 [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*!     export \\.(svg)$ [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*!     export ^.+\\.(ts|tsx)$ [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*!     export ts-jest [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*!     other exports [not provided] [no usage info] */
+
+/*!   export 0 [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*!   export 1 [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*!   export @babel/preset-env [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*!   export @types/enzyme [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*!   export @types/jest [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*!   export @types/lodash [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*!   export @types/qs [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*!   export @types/react [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*!   export @types/react-dom [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*!   export @types/styled-components [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*!   export @wojtekmaj/enzyme-adapter-react-17 [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*!   export babel-loader [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*!   export conventional-changelog-core [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*!   export core-js [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*!   export cypress [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*!   export cypress:open [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*!   export cypress:run [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*!   export email [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*!   export enzyme [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*!   export globals [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*!   export jest [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*!   export lodash [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*!   export moduleDirectories [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*!   export moduleFileExtensions [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*!   export moduleNameMapper [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*!   export name [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*!   export prepublishOnly [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*!   export prettier [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*!   export qs [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*!   export react [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*!   export react-dom [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*!   export react-svg-loader [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*!   export roots [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*!   export setupFilesAfterEnv [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*!   export source-map-loader [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*!   export standard-version [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*!   export styled-components [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*!   export testEnvironment [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*!   export testURL [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*!   export transform [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*!   export ts-jest [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*!   export ts-loader [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*!   export typescript [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*!   export watch [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*!   export webpack [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*!   export webpack-bundle-analyzer [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*!   export webpack-cli [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*!   other exports [not provided] [no usage info] */
+
+/*! *****************************************************************************
+Copyright (c) Microsoft Corporation.
+
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
+REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
+AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
+INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
+LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
+OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+PERFORMANCE OF THIS SOFTWARE.
+***************************************************************************** */
+
+/*! ../../package.json */
+
+/*! ../components/ClientPopup */
+
+/*! ../images/loading/LoadingSvg */
+
+/*! ../lib/container */
+
+/*! ../lib/dasherize */
+
+/*! ../lib/interfaces */
+
+/*! ../lib/styles */
+
+/*! ./Component */
+
+/*! ./Context */
+
+/*! ./InquiryInternal */
+
+/*! ./LoadingSpinner */
+
+/*! ./_Symbol */
+
+/*! ./_arrayMap */
+
+/*! ./_arrayReduce */
+
+/*! ./_asciiWords */
+
+/*! ./_baseGetTag */
+
+/*! ./_basePropertyOf */
+
+/*! ./_baseToString */
+
+/*! ./_createCompounder */
+
+/*! ./_deburrLetter */
+
+/*! ./_freeGlobal */
+
+/*! ./_getRawTag */
+
+/*! ./_hasUnicodeWord */
+
+/*! ./_objectToString */
+
+/*! ./_root */
+
+/*! ./_unicodeWords */
+
+/*! ./checkPropTypes */
+
+/*! ./cjs/react-is.development.js */
+
+/*! ./components/Inquiry */
+
+/*! ./container */
+
+/*! ./deburr */
+
+/*! ./factoryWithTypeCheckers */
+
+/*! ./formats */
+
+/*! ./interfaces */
+
+/*! ./isArray */
+
+/*! ./isObjectLike */
+
+/*! ./isSymbol */
+
+/*! ./lib/Client */
+
+/*! ./lib/ReactPropTypesSecret */
+
+/*! ./lib/has */
+
+/*! ./logger */
+
+/*! ./mediaQuery */
+
+/*! ./parse */
+
+/*! ./stringify */
+
+/*! ./toQuery */
+
+/*! ./toString */
+
+/*! ./useMediaQuery */
+
+/*! ./utils */
+
+/*! ./words */
+
+/*! CommonJS bailout: module.exports is used directly at 14:0-14 */
+
+/*! CommonJS bailout: module.exports is used directly at 15:0-14 */
+
+/*! CommonJS bailout: module.exports is used directly at 192:0-14 */
+
+/*! CommonJS bailout: module.exports is used directly at 21:0-14 */
+
+/*! CommonJS bailout: module.exports is used directly at 220:0-14 */
+
+/*! CommonJS bailout: module.exports is used directly at 222:0-14 */
+
+/*! CommonJS bailout: module.exports is used directly at 22:0-14 */
+
+/*! CommonJS bailout: module.exports is used directly at 24:0-14 */
+
+/*! CommonJS bailout: module.exports is used directly at 26:0-14 */
+
+/*! CommonJS bailout: module.exports is used directly at 28:0-14 */
+
+/*! CommonJS bailout: module.exports is used directly at 29:0-14 */
+
+/*! CommonJS bailout: module.exports is used directly at 35:0-14 */
+
+/*! CommonJS bailout: module.exports is used directly at 37:0-14 */
+
+/*! CommonJS bailout: module.exports is used directly at 45:0-14 */
+
+/*! CommonJS bailout: module.exports is used directly at 46:0-14 */
+
+/*! CommonJS bailout: module.exports is used directly at 4:0-14 */
+
+/*! CommonJS bailout: module.exports is used directly at 69:0-14 */
+
+/*! CommonJS bailout: module.exports is used directly at 6:0-14 */
+
+/*! CommonJS bailout: module.exports is used directly at 71:0-14 */
+
+/*! CommonJS bailout: module.exports is used directly at 7:0-14 */
+
+/*! CommonJS bailout: module.exports is used directly at 9:0-14 */
+
+/*! css-mediaquery */
+
+/*! default exports */
+
+/*! dynamic exports */
+
+/*! export BaseUrl [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export Client [provided] [no usage info] [missing usage info prevents renaming] -> ./src/lib/Client.tsx .default */
+
+/*! export Event [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export FlowType [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export FromWidgetEvent [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export Inquiry [provided] [no usage info] [missing usage info prevents renaming] -> ./src/components/Inquiry.tsx .default */
+
+/*! export MEDIA_QUERIES [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export __esModule [maybe provided (runtime-defined)] [no usage info] [provision prevents renaming (no use info)] */
+
+/*! export author [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export default [provided] [used in persona] [usage prevents renaming] */
+
+/*! export dependencies [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export description [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export devDependencies [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export files [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export jest [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export license [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export main [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export name [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export newContainerId [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export peerDependencies [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export scripts [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export sideEffects [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export types [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export version [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! hyphenate-style-name */
+
+/*! js-cookie v3.0.1 | MIT */
+
+/*! lodash/kebabCase */
+
+/*! matchmediaquery */
+
+/*! namespace exports */
+
+/*! object-assign */
+
+/*! other exports [maybe provided (runtime-defined)] [no usage info] */
+
+/*! other exports [not provided] [no usage info] */
+
+/*! prop-types */
+
+/*! qs */
+
+/*! react */
+
+/*! react-dom */
+
+/*! react-is */
+
+/*! regenerator-runtime -- Copyright (c) 2014-present, Facebook, Inc. -- license (MIT): https://github.com/facebook/regenerator/blob/main/LICENSE */
+
+/*! runtime requirements: __webpack_exports__, __webpack_require__, __webpack_require__.d, __webpack_require__.r, __webpack_require__.* */
+
+/*! runtime requirements: __webpack_exports__, __webpack_require__.r, __webpack_require__.d, __webpack_require__.* */
+
+/*! runtime requirements: __webpack_require__, __webpack_require__.n, __webpack_exports__, __webpack_require__.r, __webpack_require__.d, __webpack_require__.* */
+
+/*! runtime requirements: __webpack_require__, __webpack_require__.n, __webpack_require__.r, __webpack_exports__, __webpack_require__.d, __webpack_require__.* */
+
+/*! runtime requirements: __webpack_require__.r, __webpack_exports__, __webpack_require__.d, __webpack_require__.* */
+
+/*! runtime requirements: module */
+
+/*! runtime requirements: module, __webpack_require__ */
+
+/*! runtime requirements: module, __webpack_require__.g, __webpack_require__.* */
+
+/*! shallow-equal */
+
+/*! styled-components */
+
+/*! unknown exports (runtime-defined) */
+
+/*!**********************!*\
+          !*** ./package.json ***!
+          \**********************/
+
+/*!**********************!*\
+          !*** ./src/index.ts ***!
+          \**********************/
+
+/*!************************!*\
+          !*** ./src/Context.ts ***!
+          \************************/
+
+/*!************************!*\
+          !*** ./src/persona.ts ***!
+          \************************/
+
+/*!************************!*\
+          !*** ./src/toQuery.ts ***!
+          \************************/
+
+/*!************************!*\
+          !*** external "react" ***!
+          \************************/
+
+/*!**************************!*\
+          !*** ./src/Component.ts ***!
+          \**************************/
+
+/*!***************************!*\
+          !*** ./src/lib/logger.ts ***!
+          \***************************/
+
+/*!***************************!*\
+          !*** ./src/lib/styles.ts ***!
+          \***************************/
+
+/*!***************************!*\
+          !*** ./src/mediaQuery.ts ***!
+          \***************************/
+
+/*!****************************!*\
+          !*** ./src/lib/Client.tsx ***!
+          \****************************/
+
+/*!****************************!*\
+          !*** external "react-dom" ***!
+          \****************************/
+
+/*!******************************!*\
+          !*** ./src/lib/container.ts ***!
+          \******************************/
+
+/*!******************************!*\
+          !*** ./src/lib/dasherize.ts ***!
+          \******************************/
+
+/*!******************************!*\
+          !*** ./src/useMediaQuery.ts ***!
+          \******************************/
+
+/*!*******************************!*\
+          !*** ./src/lib/interfaces.ts ***!
+          \*******************************/
+
+/*!************************************!*\
+          !*** ./src/components/Inquiry.tsx ***!
+          \************************************/
+
+/*!************************************!*\
+          !*** external "styled-components" ***!
+          \************************************/
+
+/*!**************************************!*\
+          !*** ./node_modules/lodash/_root.js ***!
+          \**************************************/
+
+/*!**************************************!*\
+          !*** ./node_modules/lodash/words.js ***!
+          \**************************************/
+
+/*!**************************************!*\
+          !*** ./node_modules/qs/lib/index.js ***!
+          \**************************************/
+
+/*!**************************************!*\
+          !*** ./node_modules/qs/lib/parse.js ***!
+          \**************************************/
+
+/*!**************************************!*\
+          !*** ./node_modules/qs/lib/utils.js ***!
+          \**************************************/
+
+/*!***************************************!*\
+          !*** ./node_modules/lodash/deburr.js ***!
+          \***************************************/
+
+/*!****************************************!*\
+          !*** ./node_modules/lodash/_Symbol.js ***!
+          \****************************************/
+
+/*!****************************************!*\
+          !*** ./node_modules/lodash/isArray.js ***!
+          \****************************************/
+
+/*!****************************************!*\
+          !*** ./node_modules/qs/lib/formats.js ***!
+          \****************************************/
+
+/*!****************************************!*\
+          !*** ./node_modules/react-is/index.js ***!
+          \****************************************/
+
+/*!****************************************!*\
+          !*** ./src/components/ClientPopup.tsx ***!
+          \****************************************/
+
+/*!*****************************************!*\
+          !*** ./node_modules/lodash/isSymbol.js ***!
+          \*****************************************/
+
+/*!*****************************************!*\
+          !*** ./node_modules/lodash/toString.js ***!
+          \*****************************************/
+
+/*!******************************************!*\
+          !*** ./node_modules/lodash/_arrayMap.js ***!
+          \******************************************/
+
+/*!******************************************!*\
+          !*** ./node_modules/lodash/kebabCase.js ***!
+          \******************************************/
+
+/*!******************************************!*\
+          !*** ./node_modules/prop-types/index.js ***!
+          \******************************************/
+
+/*!******************************************!*\
+          !*** ./node_modules/qs/lib/stringify.js ***!
+          \******************************************/
+
+/*!*******************************************!*\
+          !*** ./node_modules/lodash/_getRawTag.js ***!
+          \*******************************************/
+
+/*!*******************************************!*\
+          !*** ./src/components/LoadingSpinner.tsx ***!
+          \*******************************************/
+
+/*!*******************************************!*\
+          !*** ./src/images/loading/LoadingSvg.tsx ***!
+          \*******************************************/
+
+/*!********************************************!*\
+          !*** ./node_modules/lodash/_asciiWords.js ***!
+          \********************************************/
+
+/*!********************************************!*\
+          !*** ./node_modules/lodash/_baseGetTag.js ***!
+          \********************************************/
+
+/*!********************************************!*\
+          !*** ./node_modules/lodash/_freeGlobal.js ***!
+          \********************************************/
+
+/*!********************************************!*\
+          !*** ./node_modules/prop-types/lib/has.js ***!
+          \********************************************/
+
+/*!********************************************!*\
+          !*** ./src/components/InquiryInternal.tsx ***!
+          \********************************************/
+
+/*!*********************************************!*\
+          !*** ./node_modules/lodash/_arrayReduce.js ***!
+          \*********************************************/
+
+/*!*********************************************!*\
+          !*** ./node_modules/lodash/isObjectLike.js ***!
+          \*********************************************/
+
+/*!*********************************************!*\
+          !*** ./node_modules/object-assign/index.js ***!
+          \*********************************************/
+
+/*!**********************************************!*\
+          !*** ./node_modules/css-mediaquery/index.js ***!
+          \**********************************************/
+
+/*!**********************************************!*\
+          !*** ./node_modules/lodash/_baseToString.js ***!
+          \**********************************************/
+
+/*!**********************************************!*\
+          !*** ./node_modules/lodash/_deburrLetter.js ***!
+          \**********************************************/
+
+/*!**********************************************!*\
+          !*** ./node_modules/lodash/_unicodeWords.js ***!
+          \**********************************************/
+
+/*!***********************************************!*\
+          !*** ./node_modules/matchmediaquery/index.js ***!
+          \***********************************************/
+
+/*!************************************************!*\
+          !*** ./node_modules/lodash/_basePropertyOf.js ***!
+          \************************************************/
+
+/*!************************************************!*\
+          !*** ./node_modules/lodash/_hasUnicodeWord.js ***!
+          \************************************************/
+
+/*!************************************************!*\
+          !*** ./node_modules/lodash/_objectToString.js ***!
+          \************************************************/
+
+/*!**************************************************!*\
+          !*** ./node_modules/lodash/_createCompounder.js ***!
+          \**************************************************/
+
+/*!***************************************************!*\
+          !*** ./node_modules/prop-types/checkPropTypes.js ***!
+          \***************************************************/
+
+/*!****************************************************!*\
+          !*** ./node_modules/hyphenate-style-name/index.js ***!
+          \****************************************************/
+
+/*!******************************************************!*\
+          !*** ./node_modules/shallow-equal/dist/index.esm.js ***!
+          \******************************************************/
+
+/*!***********************************************************!*\
+          !*** ./node_modules/react-is/cjs/react-is.development.js ***!
+          \***********************************************************/
+
+/*!************************************************************!*\
+          !*** ./node_modules/prop-types/factoryWithTypeCheckers.js ***!
+          \************************************************************/
+
+/*!*************************************************************!*\
+          !*** ./node_modules/prop-types/lib/ReactPropTypesSecret.js ***!
+          \*************************************************************/
+
+/*!**************************************************************************************!*\
+          !*** external {"commonjs":"react","commonjs2":"react","amd":"react","root":"React"} ***!
+          \**************************************************************************************/
+
+/**
+ * @license
+ * Lodash <https://lodash.com/>
+ * Copyright OpenJS Foundation and other contributors <https://openjsf.org/>
+ * Released under MIT license <https://lodash.com/license>
+ * Based on Underscore.js 1.8.3 <http://underscorejs.org/LICENSE>
+ * Copyright Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
+ */
+
+/**
+ * @license qrcode.react
+ * Copyright (c) Paul O'Shannessy
+ * SPDX-License-Identifier: ISC
+ */
+
+/** @license React v0.13.6
+ * scheduler.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/** @license React v16.13.1
+           * react-is.development.js
+           *
+           * Copyright (c) Facebook, Inc. and its affiliates.
+           *
+           * This source code is licensed under the MIT license found in the
+           * LICENSE file in the root directory of this source tree.
+           */
+
+/** @license React v16.13.1
+ * react-is.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/** @license React v16.8.4
+ * react-dom-server.browser.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/** @license React v16.8.4
+ * react-dom.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/** @license React v16.8.4
+ * react.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/**!
+ * @fileOverview Kickass library to create and place poppers near their reference elements.
+ * @version 1.15.0
+ * @license
+ * Copyright (c) 2016 Federico Zivolo and contributors
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ */

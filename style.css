@@ -1,0 +1,797 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background: url(images/hero_desktop.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.header-div {
+    position:relative;
+    height: 551px;
+}
+
+.banner-container {
+    position: absolute;
+    width: 100%;
+    height: 500px;
+
+}
+.banner-container img {
+    height: 100%;
+    width:100%;
+    object-fit: cover;
+}
+.banner-desktop {
+    display: none;
+}
+.header-contents-container{
+    padding: 0px 8px;
+}
+.auth-section {
+    display: flex;
+    justify-content: end;
+    column-gap: 8px;
+    transform: translate(-17px,16px);
+    box-sizing: border-box;
+}
+
+.auth-section p {
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    font-family: norms-bold;
+    transform: translateY(3px);
+}
+
+.btn-sign-in{
+    background: #eb1700;
+    height: 32px;
+    width: 97.25px;
+    border-radius: 42px;
+    border: 1px solid transparent;
+    transform: translateX(1px);
+}
+
+.btn-sign-in p {
+    color: white;
+    text-align: center;
+    margin-top: 2px;
+    letter-spacing: -0.457px;
+}
+
+.btn-sign-up {
+    background: white;
+    text-align: center;
+    height: 32px;
+    width: 64px;
+    border-radius: 42px;
+    border: 1px solid transparent;
+    transform: translatex(1px);
+}
+.btn-sign-up p{
+    color: #191919;
+    margin-top: 2px;
+    font-family: norms-bold;
+    font-family: 700;
+    letter-spacing: -0.457px;
+}
+.logo-text-container {
+      display: flex;
+      justify-content: center;
+      column-gap: 8px;
+      transform: translateY(146px);
+
+}
+.logo-text img {
+    transform: translate(3px);
+}
+
+.restaurants-near-container {
+    transform: translatey(161px);
+}
+.restaurant-desc h2{
+    color: white;
+    font-family: norms-bold;
+    font-size: 22px;
+    text-align: center;
+    line-height: 28px;
+}
+
+.restaurants-search-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    width: 320px;
+    height: 48px;
+    padding-right: 4px;
+    padding-left: 16px;
+    border-radius: 31px;
+    border: 1px solid transparent;
+    transform: translateX(36px,24px);
+}
+.loction img{
+    display: none;
+}
+
+.search-box img{
+    margin-top: 5px;
+    margin-left: -1px;
+}
+ .restaurants-search-container p{
+    color: #615c5c;
+    font-family: norms-medium;
+    font-size: 16px;
+    margin-left: 16px;
+    transform: translateY(-30px,-1px);
+
+ }
+ .enter-btn-div{
+    margin-top: 5px;
+    margin-right: 7px;
+    transform: translateX(30px);
+
+ }
+.login-container span{
+    display: none;
+}
+.login-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: white;
+    margin-top: 40px;
+    column-gap: 4px;
+    height: 32px;
+    width: 82.07px;
+    border-radius: 39px;
+    border: 1px solid white;
+    box-shadow: transparent 0px 0px 0px 1px inset, rgba(0, 0, 0 0.2) 0px 2px 8px;
+    transform:translateX(157px);
+
+}
+.login-container img{
+    height: 16px;
+    width: 16px;
+
+}
+.login-container p{
+    font-family:norms-bold;
+    font-size: 14px;
+}
+.auth-section-main{
+    display: none;
+}
+
+
+.playstore-section{
+    display: flex;
+    background: #f7f7f7;
+    border: 1px solid #f7f7f7;
+    border-radius: 15px;
+    box-shadow: 0px 0px 3px #ccc;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    width: 360px;
+    height: 148px;
+    column-gap: 8px;
+    max-width: 400px;
+    box-shadow: 0px 0px 3px #ccc;
+}
+.doordash-logo{
+    background: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 14px;
+    margin-top: -1px;
+}
+.doordash-logo img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    margin: 8px;
+}
+.playstore-container{
+    line-height: 22px;
+}
+.playstore-container img{
+    margin-bottom: 2px;
+}
+.playstore-container h3{
+     font-family: norms-medium;
+     font-size: 14px;
+     font-weight: 500;
+     color: #767676;
+}
+.playstore-container h2{
+    font-size: 18px;
+    font-family: norms-bold;
+    margin-bottom: 4px;
+    margin-top: -3px;
+    letter-spacing: -0.04ch;
+}
+.get-app-btn{
+    display: flex;
+    border: 1px solid #eb1700;
+    border-radius: 24px;
+    width: 124.23px;
+    background: #eb1700;
+    height: 32px;
+    margin-top: 8px;
+    column-gap: 4px;
+}
+.get-app-btn p{
+    font-family: norms-bold;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-left: 10px;
+}
+.get-app-btn img{
+    display: flex;
+    align-items: center;
+    width: 16px;
+    height: 16px;
+    transform: translateY(7px);
+
+}
+
+.services-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.service-section{
+    margin: 40px 0;
+    padding: 8px;
+
+}
+
+.service-section-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.dasher-experiance{
+    display: flex;
+    padding: 16px;
+    width: 100%;
+    max-width: 360px; 
+    }
+    .dasher-img-container{
+        margin-right: 32px;
+    }
+    .dasher-img-container img{
+        height: 88px;
+        width: 88px;
+    }
+    
+.dasher-desc{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 250px;
+}
+.dasher-desc h2{
+    color: #191919ff;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: -0.1px;
+    text-decoration: none;
+    text-transform: none;
+    text-align: left;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+}
+.dasher-desc h3{
+    font-family: norms-medium;
+    font-size: 14px;
+    color: #191919ff;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.1px;
+}
+.dasher-btn{
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+    cursor: pointer;
+    background-color: transparent;
+}
+.dasher-btn p{
+    color: #eb1700;
+    font-family: norms-bold;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing:-0.01px ;
+    display: block;
+}
+.dasher-btn-img{
+    margin-left: 4px;
+}
+.doordash-main-container{
+    width: 100%;
+}
+
+/* .delivery-container{
+
+}  */
+
+.delivery-section-div{
+    position: relative;
+    height: 890px;
+}
+.crave-container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    min-width: 90%;
+    justify-content: center;
+    align-items: center;
+}
+.crave-img{
+    width:100%;
+    height: 100px;
+    object-fit: cover;
+
+}
+.crave-img-desktop{
+    display: none;
+}
+.crave-img img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.crave-desc{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    max-width: 400px;
+}
+.crave-desc h2{
+    max-width: 90%;
+    margin-top: 20px;
+    color: #191919;
+    font-family: 0;
+    font-size: 24px;
+    font-weight: 700px;
+    line-height: 28px;
+    letter-spacing: -0.01px;
+}
+    .crave-desc h4{
+        margin-top: 10px;
+        color: #191919;
+        font-family: 0;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 22px;
+        letter-spacing: -0.01px;   
+    }
+    .crave-desc span{
+        margin-top: 10px;
+        color: #191919;
+        font-family: norms-medium;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: -0.01px;
+    }
+    .find-restaurant-btn{
+        margin-top: 20px;
+        width: 100px;
+        padding: 2px 15px;
+        background: #eb1700;
+        color: white;
+        height: 32px;
+        border: 1px solid #eb1700;
+        border-radius: 15px;
+    }
+    .find-restaurant-btn p{
+          display: flex;
+          justify-content: center;
+          margin-top: 4px;
+          font-family: norms-bold;
+          font-size: 14px;
+          white-space: nowrap;
+    }
+
+    .overlay{
+        position: absolute;
+        background-color: #fef1ee;
+        bottom: 0;
+        width: 100%;
+        height:731px;
+        z-index: -1;
+    }
+    @media screen and(min-width:425px){
+        .restaurant-desc h2{
+            margin: 0 auto;
+            max-width: 350px;
+    }
+    .restaurants-near-container{
+        transform:translateY(161px);
+    }
+    .restaurants-search-container{
+        margin-left: auto;
+        margin-right: auto;
+        transform: rotate(4px,1px);
+    }
+.login-container{
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateX(0px);
+
+}
+.dasher-experiance{
+    transform: translate(4px,1px);
+}
+
+.grocery-content-img{
+    margin: 20px;
+    size-adjust: cover;
+    background-size: 90% 100%;
+    display: flex;
+    
+
+.btn-groceries{
+    display: flex;
+    border-radius: 240px;
+    width: 130px;
+    height: 30px;
+}
+.btn-groceries p{
+    align-content: center;
+    color: #fef1ee;
+}
+    .grocery-container{
+        size: 50px;
+        letter-spacing: bold;
+    }
+    .btn-groceries h{
+        align-items: center;
+        transform: translateX(-120px);
+    }
+
+}
+.shop-now-img{
+    display: block;
+    box-sizing: border-box;
+    transform: translateX(200px);
+
+    
+}
+
+/* Tablet Responsive */
+
+@media screen and (min-width: 768px){
+    .header-div{
+        height: 650px;
+    }
+.logo-text-container{
+    transform: translateY(-16px);
+}
+.auth-section{
+    display: none;
+}
+.auth-section-main{
+    display: flex;
+    justify-content: end;
+    column-gap: 8px;
+    transform: translate(-17px,16px);
+}
+.auth-section-main p{
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    font-family: norms-bold;
+    transform: translateY(6px);
+}
+.btn-sign-in{
+    width: 76.48px;
+    height: 40px;
+}
+.btn-sign-up{
+    width: 86.03px;
+    height: 40px;
+}
+.restaurants-near-container{
+    margin:0 auto;
+    max-width: 408px;
+    transform: translateY(203px);
+}
+
+.restaurants-search-container{
+    width: 408px;
+    height: 56px;
+    justify-content: start;
+    column-gap: 34px;
+}
+.search-box img{
+    display:none;
+}
+.loction img{
+    display: flex;
+    transform: translateX(-31px);
+}
+.restaurants-search-container p{
+    transform: translate(-69px,-1px);
+}
+.enter-btn-div{
+    display: flex;
+    justify-content: end;
+    margin-top: 0;
+    margin-right: 0;
+    transform: translate(48px);
+}
+
+br{ 
+    display: none;
+}
+.restaurant-desc h2{
+      display: flex;
+      justify-content: center;
+      font-size: 40px;
+      white-space: nowrap;
+      letter-spacing: -0.568px;
+
+}
+ .login-text{
+    display: none;
+ }
+
+ .signin-text{ 
+    display: inline-block;
+ }
+ .playstore-section{
+    display: none;
+ }
+ .service-section{
+    margin: 32px 0;
+
+}
+.dasher-img-container{
+    margin-right: 64px;
+
+}
+ .dasher-img-container img{
+    height: 124px;
+    width: 124px;
+ }
+ .delivery-section-div{
+    height: 1090px;
+ }
+ .overlay{
+    height: 605px;
+ }
+ .crave-container{
+    display: flex;
+    flex-direction: row-reverse;
+    column-gap: 60px;
+ }
+ .second{
+    display: flex;
+    flex-direction: row;
+    column-gap: 60px;
+    padding: 25px 20px 20px;
+ }
+ .crave-img{
+    display: none;
+ }
+ .crave-img-desktop{
+    display: block;
+    width: 100%;
+    height: 500px;
+ }
+ .crave-img-desktop img{
+    min-width: 520px;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+ 
+}
+
+/* .crave-desc{
+    transform: translateY(500px);
+} */
+
+.crave-desc h2{
+    width: 360px;
+    font-size: 40px;
+    line-height: 44px;
+    letter-spacing: -0.056px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+ .crave-desc h4{ 
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+
+.crave-desc span{
+    font-size: 16px;
+}
+.crave-desc p{
+       font-size: 16px;
+}
+.find-restaurant-btn{
+    margin: 32px 0 0 0;
+}
+.grocery-content-img{
+    margin: 20px;
+    background-size: 90% 100%;
+    display: flex;
+    width: max-content;
+}
+.groceries-content p{
+    align-content: center;
+    width: 100%;
+    font-size: 50px;
+    display: flex;
+    color: #fef1ee;
+}
+.btn-groceries {
+    align-content: center;
+    transform: translateX(-800px);
+    size: 100px;
+    margin-bottom: 20px;
+    transform: translateY();
+    
+}
+}
+/* laptop view */
+@media screen and (min-width: 1020px){
+
+    .logo-text-container{
+        column-gap: 12px;
+    }
+
+    .logo img{
+        height: 23px;
+        width: 42px;
+    }
+    .logo-text img{
+        transform: translateY(3px);
+        height: 18px;
+    }
+
+    .restaurants-near-container{
+           transform: translateY(214px);
+    }
+    .restaurants-near-container h2{
+        display: flex;
+        justify-content: center;
+        white-space: nowrap;
+        font-size: 40px;
+        letter-spacing: -0.1px;
+    }
+    .restaurants-search-container{
+        margin-top: 8px;
+        transform: translate(2px, 24px);
+    }
+    .login-container p{
+        display: none;
+    }
+    .login-container {
+        height: 32px;
+        width: 203.75px;
+        white-space: nowrap;
+        /* transform: translateX(100px); */
+
+    }
+
+    .login-container span{
+        display:flex;
+        align-items: center;
+        font-family: norms-bold;
+        font-size: 14px;
+    }
+    .crave-desc h2{
+        max-width: 360px;
+    }
+    .service-section-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .grocery-content-img{
+        margin-top: 20px;
+        margin-left: 0;
+        margin-right: 0;
+        background-size: 100%;
+        display: flex;
+
+    }
+    .grocery-content p{
+        text-align: center;
+        color: white;
+    }
+    .grocery-content h{
+        align-content: center;
+        transform: translateX(-500px);
+        size: 50px;
+    }
+    
+
+    
+     }
+     /* desktop */
+     @media screen  and (min-width:1184px){
+        .enter-btn-div{
+            display: none;
+        }
+         .enter-btn-white{
+            display: flex;
+            background: #eb1700;
+            padding: 11px;
+            border-radius: 25px;
+            border: 1px solid#eb1700;
+            transform: translateX(40px);
+        }
+        .enter-btn-div-white{
+            height: 20px;
+        }
+        .service-section{
+            margin: 96px 0;
+            max-width: 1184px;
+        }
+
+        .service-section-container{
+            flex-direction:column;
+        }
+
+        .dasher-experiance{
+            flex-flow: column;
+            margin-top: 12px;
+        }
+        .dasher-img-container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .dasher-img-container img{
+            height: 154px;
+            width: 154px;
+        }
+        .dasher-desc{
+            min-height: 160px;
+        }
+        .dasher-desc h2{
+            font-size: 32px;
+            line-height: 40px;
+            text-align: center;
+        }
+        .dasher-desc h3{
+            margin-top: 8px;
+            font-size: 18px;
+            line-height: 22px;
+            font-weight: 500;
+            text-align: center;
+        }
+        .dasher-btn{
+            align-items: center;
+            justify-content: center;
+        }
+        .dasher-btn p{
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 22px;
+        }
+     }
